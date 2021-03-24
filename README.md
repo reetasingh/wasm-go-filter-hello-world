@@ -18,10 +18,9 @@ envoy -c envoy.yaml -l debug
 
 ```
 
-# Curl output
+# Curl output when calling envoy proxy
 
 ```
-output when header present -> Hello World!
 
 reetasingh-ltm8:~ reetasingh$ 
 reetasingh-ltm8:~ reetasingh$ curl localhost:8085/hello 
@@ -32,8 +31,11 @@ reetasingh-ltm8:~ reetasingh$
 reetasingh-ltm8:~ reetasingh$ 
 ```
 
+
+# Envoy logs
+
 ```
-Envoy logs
+
 
 [2021-03-22 21:10:51.616][2633455][info][config] [source/server/configuration_impl.cc:125] loading tracing configuration
 [2021-03-22 21:10:51.616][2633455][info][config] [source/server/configuration_impl.cc:85] loading 0 static secret(s)
