@@ -59,5 +59,5 @@ reetasingh-ltm8:~ reetasingh$
 
 ```
 
-# refercence 
+# Reference 
 https://tufin.medium.com/extending-envoy-proxy-with-golang-webassembly-e51202809ba6
